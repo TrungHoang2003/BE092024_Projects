@@ -76,6 +76,8 @@
     <Compile Include="Bussiness\Function.cs" />
     <Compile Include="Bussiness\QuanLyHoaDon.cs" />
     <Compile Include="Bussiness\QuanLyLichSuTuongTac.cs" />
+    <Compile Include="DataObject\Animal.cs" />
+    <Compile Include="DataObject\Bird.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structs\HoaDon.cs" />
     <Compile Include="Structs\LichSuTuongTac.cs" />

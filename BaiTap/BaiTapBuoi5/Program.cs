@@ -22,7 +22,8 @@ namespace BaiTapBuoi5
                 Console.WriteLine("1. Nhap danh sach hoa don va luu vao file Excel.");
                 Console.WriteLine("2. Import danh sach hoa don tu file Excel.");
                 Console.WriteLine("3. Xuat danh sach lich su tuong tac ra file excel theo tuan/ thang");
-
+                
+                
                 int choice = 0;
                 Console.Write("- Nhap lua chon cua ban: ");
                 choice = Function.nhapSo(choice);
