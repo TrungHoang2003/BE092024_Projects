@@ -73,14 +73,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bussiness\EmployeeManager.cs" />
+    <Compile Include="Bussiness\ExcelManager.cs" />
     <Compile Include="Bussiness\Function.cs" />
-    <Compile Include="Bussiness\QuanLyHoaDon.cs" />
-    <Compile Include="Bussiness\QuanLyLichSuTuongTac.cs" />
-    <Compile Include="DataObject\Animal.cs" />
-    <Compile Include="DataObject\Bird.cs" />
+    <Compile Include="Bussiness\ProcessManager.cs" />
+    <Compile Include="Bussiness\ProductionManager.cs" />
+    <Compile Include="DataObject\Employee.cs" />
+    <Compile Include="DataObject\Process.cs" />
+    <Compile Include="DataObject\Production.cs" />
+    <Compile Include="Interface\IEmployee.cs" />
+    <Compile Include="Interface\IProcess.cs" />
+    <Compile Include="Interface\IProduction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Structs\HoaDon.cs" />
-    <Compile Include="Structs\LichSuTuongTac.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
