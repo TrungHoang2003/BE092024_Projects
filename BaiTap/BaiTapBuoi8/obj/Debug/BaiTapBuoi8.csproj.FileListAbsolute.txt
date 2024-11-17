@@ -1,6 +1,0 @@
-C:\Users\trung\source\repos\BE092024_Projects\BaiTap\BaiTapBuoi8\bin\Debug\BaiTapBuoi8.exe
-C:\Users\trung\source\repos\BE092024_Projects\BaiTap\BaiTapBuoi8\bin\Debug\BaiTapBuoi8.pdb
-C:\Users\trung\source\repos\BE092024_Projects\BaiTap\BaiTapBuoi8\obj\Debug\BaiTapBuoi8.csproj.AssemblyReference.cache
-C:\Users\trung\source\repos\BE092024_Projects\BaiTap\BaiTapBuoi8\obj\Debug\BaiTapBuoi8.csproj.CoreCompileInputs.cache
-C:\Users\trung\source\repos\BE092024_Projects\BaiTap\BaiTapBuoi8\obj\Debug\BaiTapBuoi8.exe
-C:\Users\trung\source\repos\BE092024_Projects\BaiTap\BaiTapBuoi8\obj\Debug\BaiTapBuoi8.pdb
