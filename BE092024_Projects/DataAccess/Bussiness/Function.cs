@@ -1,59 +1,63 @@
-﻿using Common;
-using System;
-using System.Diagnostics.Eventing.Reader;
+﻿using System;
 using System.Globalization;
+using Common;
 
-namespace DataAccess.Bussiness
+namespace DataAccess.Bussiness;
+
+public class Function
 {
-    public class Function
+    public static int nhapSo(int input)
     {
-        public static int nhapSo(int input)
+        while (true)
         {
-            while (true)
-            {
-                if (!int.TryParse(Console.ReadLine(), out input))
-                    Console.WriteLine("So khong hop le.");
-                break;
-            }
-            return input;
-        }
-        public static float nhapSo(float input)
-        {
-            while (true)
-            {
-                if (!Single.TryParse(Console.ReadLine(), out input))
-                    Console.WriteLine("So khong hop le.");
-                break;
-            }
-            return input;
-        }
-        public static string nhapString(string input)
-        {
-            input = Console.ReadLine();
-            while (true)
-            {
-                if (string.IsNullOrEmpty(input))
-                    Console.WriteLine("Chuoi khong duoc rong.");
-                else if (Validation.ContainsHtml(input))
-                    Console.WriteLine("Chuoi khong duoc chua the html.");
-                else if (Validation.ContainsSpecialChars(input))
-                    Console.WriteLine("Chuoi khong duoc chua ky tu dac biet.");
-                break;
-            }
-            return input;
+            if (!int.TryParse(Console.ReadLine(), out input))
+                Console.WriteLine("So khong hop le.");
+            break;
         }
 
-        public static DateTime nhapDateTime(DateTime input)
+        return input;
+    }
+
+    public static float nhapSo(float input)
+    {
+        while (true)
         {
-            string format = "dd/MM/yyyy";
-            while (true)
-            {
-                if (!DateTime.TryParseExact(Console.ReadLine(), format,
-                    CultureInfo.InvariantCulture, DateTimeStyles.None, out input))
-                    Console.WriteLine("Khong dung dinh dang.");
-                break;
-            }
-            return input;
+            if (!float.TryParse(Console.ReadLine(), out input))
+                Console.WriteLine("So khong hop le.");
+            break;
         }
+
+        return input;
+    }
+
+    public static string nhapString(string input)
+    {
+        input = Console.ReadLine();
+        while (true)
+        {
+            if (string.IsNullOrEmpty(input))
+                Console.WriteLine("Chuoi khong duoc rong.");
+            else if (Validation.ContainsHtml(input))
+                Console.WriteLine("Chuoi khong duoc chua the html.");
+            else if (Validation.ContainsSpecialChars(input))
+                Console.WriteLine("Chuoi khong duoc chua ky tu dac biet.");
+            break;
+        }
+
+        return input;
+    }
+
+    public static DateTime nhapDateTime(DateTime input)
+    {
+        var format = "dd/MM/yyyy";
+        while (true)
+        {
+            if (!DateTime.TryParseExact(Console.ReadLine(), format,
+                    CultureInfo.InvariantCulture, DateTimeStyles.None, out input))
+                Console.WriteLine("Khong dung dinh dang.");
+            break;
+        }
+
+        return input;
     }
 }

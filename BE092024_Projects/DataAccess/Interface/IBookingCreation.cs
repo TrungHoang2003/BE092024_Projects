@@ -1,10 +1,8 @@
-using System;
 using DataAccess.DataObject;
 
-namespace DataAccess.Interface
+namespace DataAccess.Interface;
+
+public interface IBookingCreation
 {
-    public interface IBookingCreation
-    {
-         Booking CreateBooking (string customerName, int roomNumber, DateTime checkInDate, DateTime checkOutDate);
-    }
+    Booking createBooking(Booking booking);
 }

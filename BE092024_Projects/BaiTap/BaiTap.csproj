@@ -40,22 +40,21 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Bai10.cs" />
-        <Compile Include="Bai11.cs" />
-        <Compile Include="Bai9.cs" />
-        <Compile Include="IBaiTap.cs" />
-        <Compile Include="MainEntryPoint.cs" />
+        <Compile Include="Bai10.cs"/>
+        <Compile Include="Bai11.cs"/>
+        <Compile Include="Bai9.cs"/>
+        <Compile Include="MainEntryPoint.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\Common\Common.csproj">
-        <Project>{afd0625b-b10d-4bf2-8d08-4c98f6598a6c}</Project>
-        <Name>Common</Name>
-      </ProjectReference>
-      <ProjectReference Include="..\DataAccess\DataAccess.csproj">
-        <Project>{872dfdb6-e4ca-47cf-a4b4-45afea8e703d}</Project>
-        <Name>DataAccess</Name>
-      </ProjectReference>
+        <ProjectReference Include="..\Common\Common.csproj">
+            <Project>{afd0625b-b10d-4bf2-8d08-4c98f6598a6c}</Project>
+            <Name>Common</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+            <Project>{872dfdb6-e4ca-47cf-a4b4-45afea8e703d}</Project>
+            <Name>DataAccess</Name>
+        </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

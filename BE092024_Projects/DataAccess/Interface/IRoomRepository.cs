@@ -1,10 +1,13 @@
+using System.Collections.Generic;
 using DataAccess.DataObject;
 
-namespace DataAccess.Interface
+namespace DataAccess.Interface;
+
+public interface IRoomRepository
 {
-    public interface IRoomRepository
-    {
-        Room GetRoomByNumber(int roomNumber);
-         void UpdateRoomAvailability(int roomNumber, bool isAvailable);
-    }
+    List<Room> GetAllRooms();
+    Room getRoomByNumber(int roomNumber);
+    void updateRoomAvailability(int roomNumber, bool isAvailable);
+    bool checkRoomAvailability(int roomNumber);
+    void getRoomDetails();
 }
