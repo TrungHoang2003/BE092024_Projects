@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\trung\\source\\repos\\BE092024_Projects\\BE092024_Projects\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81E39FA8-3480-42C5-84F4-4CC2BDC8922A}|RequestReceiveWeb\\requestreceiveweb.client\\requestreceiveweb.client.esproj|c:\\users\\trung\\source\\repos\\be092024_projects\\be092024_projects\\requestreceiveweb\\requestreceiveweb.client\\aspnetcore-https.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{81E39FA8-3480-42C5-84F4-4CC2BDC8922A}|RequestReceiveWeb\\requestreceiveweb.client\\requestreceiveweb.client.esproj|solutionrelative:requestreceiveweb\\requestreceiveweb.client\\aspnetcore-https.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "aspnetcore-https.js",
+              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BE092024_Projects\\BE092024_Projects\\RequestReceiveWeb\\requestreceiveweb.client\\aspnetcore-https.js",
+              "RelativeDocumentMoniker": "RequestReceiveWeb\\requestreceiveweb.client\\aspnetcore-https.js",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BE092024_Projects\\BE092024_Projects\\RequestReceiveWeb\\requestreceiveweb.client\\aspnetcore-https.js",
+              "RelativeToolTip": "RequestReceiveWeb\\requestreceiveweb.client\\aspnetcore-https.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-19T09:19:13.944Z",
+              "EditorCaption": ""
             }
           ]
         }
